@@ -7,8 +7,13 @@
 body {
   background-color: #f2f1ed;
   color: #de4848;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.tagline{
+  font-family: sans-serif;
+  font-size: 50px;
+}
 .flip-card {
   position: relative;
   display: inline-flex;
@@ -98,14 +103,35 @@ body {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; 
-  height: 0;
+  height: 10px;
   
 }
 .iframe-container iframe{
   position: absolute;
-  top:0;
+  top: 20px;;
   left: 25%;
   width: 50%;
   height: 50%;
 
 }
+
+.custom-shape-divider-top-1667748616 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1667748616 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 478px;
+}
+
+.custom-shape-divider-top-1667748616 .shape-fill {
+  fill: #FF5858;
+} 
